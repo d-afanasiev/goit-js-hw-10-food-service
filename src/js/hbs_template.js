@@ -5,4 +5,8 @@ const refs = {
   menuList: document.querySelector('.js-menu'),
 };
 
-refs.menuList.innerHTML = cardTemplate(menu);
+function insertCardToList() {
+  refs.menuList.innerHTML = cardTemplate(menu);
+}
+
+insertCardToList();
